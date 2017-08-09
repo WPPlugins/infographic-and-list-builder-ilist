@@ -1,0 +1,246 @@
+
+img{
+	max-width: 100%;
+}
+
+.promo-wrapper{
+  padding: 20px 20px 0 0;
+}
+
+.tlist-wrapper-x18 a{
+	text-decoration: none;
+	color: #414247;
+	font-weight: bold;
+}
+.tlist-wrapper-x18{
+	margin: 50px auto;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414247;
+}
+.tlist-holder-x18{
+
+}
+.top-row-x18{
+	text-align: center;
+    overflow: hidden;
+    height: 400px;	
+}
+
+
+.bottom-row-x18{
+	background: #F1F1F1;
+	padding: 75px 0;
+    text-align: center;
+    -webkit-box-shadow: 0px 7px 27px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 27px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 27px -13px rgba(0,0,0,0.75);
+}
+.single-item-x18{
+	color: #414247;
+	text-align: center;
+    width: 30%;
+	padding: 0 15px 30px 15px;
+    display: inline-block;
+}
+
+.icon-box-x18 {
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	border: 1px solid #a0a0a0;
+}
+.icon-box-x18 i{
+	color: #fff;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+}
+.icon-box-x18 img{
+	border-radius: 50%;
+}
+
+.content-box-x18{
+	float: left;
+    width: 100%;
+    padding-top: 7px;
+}
+.content-box-x18 h2{
+	font-size: 16px;
+	font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+
+
+.tlist-holder-x18 *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	
+	-webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+
+.single-item-x18:hover .icon-box-x18{
+	background-color: #fff;	
+	border: 1px solid #414247;
+}
+.single-item-x18:hover .icon-box-x18 i{
+	color: #414247;
+}
+
+.promo-footer {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+/*Tab Styles*/
+div.tab {
+  background-color: #fcfcfc;
+  border: 1px solid #33b0d9;
+  overflow: hidden;
+}
+
+.tab-logo {
+  float: left;
+  margin-left: 0px;
+}
+
+.tab-logo > a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+.co-name {
+  display: inline-block;
+  font-weight: bold;
+  height: 70px;
+  line-height: 83px;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.tab-logo img {
+  height: 70px;
+  margin: 3px 0 0;
+  width: auto;
+}
+
+/* Style the links inside the tab */
+div.tab .tab-links a {
+  color: black;
+  display: block;
+  float: left;
+  font-size: 18px;
+  height: 70px;
+  line-height: 70px;
+  padding: 4px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-weight: bold;
+  background-color: #eeeeee;
+}
+
+/* Change background color of links on hover */
+div.tab .tab-links a:hover {
+    background-color: #33B0D9;
+	color: #fff;
+}
+
+/* Create an active/current tablink class */
+div.tab .tab-links a:focus, div.tab .tab-links a.active {
+    background-color: #33B0D9;
+	color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #33b0d9;
+    border-top: none;
+	background: #fff none repeat scroll 0 0;
+}
+
+.tabcontent-inner{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.services-list .icon-box-x18 {
+	display: inline-flex;
+	height: 85px;
+	position: relative;
+	width: 85px;
+	align-content: center !important;
+	align-self: center;
+	justify-content: center !important;
+	align-items: center;
+	place-content: center;
+}
+
+.services-list .icon-box-x18 img{
+  border-radius: 0%;
+}
+
+.single-item-x18:hover .icon-box-x18 {
+  background-color: #fff;
+  border: 0px solid #fff;
+}
+
+
+/* Responsive Styles */
+
+@media only screen and (min-width: 960px) and (max-width: 1200px){
+	.tlist-wrapper-x18{
+		width: 100%;
+	}	
+}
+@media only screen and (min-width: 800px) and (max-width: 960px){
+	.tlist-wrapper-x18{
+		width: 100%;
+	}	
+}
+@media only screen and (min-width: 650px) and (max-width: 800px){
+	.tlist-wrapper-x18{
+		width: 100%;
+	}	
+}
+@media only screen and (min-width: 0px) and (max-width: 650px){
+	.tlist-wrapper-x18{
+		width: 100%;
+	}
+	.single-item-x18{
+		width: 100%;
+	}
+	
+}
+
